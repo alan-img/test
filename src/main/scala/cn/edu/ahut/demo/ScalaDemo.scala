@@ -12,5 +12,7 @@ package cn.edu.ahut.demo
  */
 
 object ScalaDemo {
-
+  def main(args: Array[String]): Unit = {
+    println("jack")
+  }
 }
