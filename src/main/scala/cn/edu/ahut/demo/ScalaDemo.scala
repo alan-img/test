@@ -14,5 +14,8 @@ package cn.edu.ahut.demo
 object ScalaDemo {
   def main(args: Array[String]): Unit = {
     println("jack")
+    for (i <- 0.until(10)) {
+      println(i)
+    }
   }
 }
